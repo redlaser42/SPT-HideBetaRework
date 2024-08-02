@@ -34,9 +34,6 @@
     <RunPostBuildEvent>Always</RunPostBuildEvent>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony20">
-      <HintPath>..\..\MPT 3.9\BepInEx\core\0Harmony20.dll</HintPath>
-    </Reference>
     <Reference Include="BepInEx.Harmony">
       <HintPath>..\..\MPT 3.9\BepInEx\core\BepInEx.Harmony.dll</HintPath>
     </Reference>
@@ -97,7 +94,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetPath)" "$(ProjectDir)\..\..\BepInEx\plugins\$(TargetFileName)"</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <!--BEGINNING OF PASTED REFERENCES-->
   <ItemGroup>
