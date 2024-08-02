@@ -134,3 +134,7 @@ X:\New folder\3.9 Dev2\Development\Hide Beta Rework\bin\Debug\MonoMod.RuntimeDet
 X:\New folder\3.9 Dev2\Development\Hide Beta Rework\obj\Debug\HideBeta.D82949E9.Up2Date
 X:\New folder\3.9 Dev2\Development\Hide Beta Rework\obj\Debug\HideBetaRework.dll
 X:\New folder\3.9 Dev2\Development\Hide Beta Rework\obj\Debug\HideBetaRework.pdb
+X:\New folder\SPT-Mod-Dev\Hide Beta Rework\obj\Debug\HideBetaRework.csproj.AssemblyReference.cache
+X:\New folder\SPT-Mod-Dev\Hide Beta Rework\obj\Debug\HideBetaRework.csproj.CoreCompileInputs.cache
+X:\New folder\SPT-Mod-Dev\Hide Beta Rework\obj\Debug\HideBetaRework.dll
+X:\New folder\SPT-Mod-Dev\Hide Beta Rework\obj\Debug\HideBetaRework.pdb

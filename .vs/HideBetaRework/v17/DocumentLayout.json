@@ -1,20 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "X:\\New folder\\3.9 Dev2\\Development\\Hide Beta Rework\\",
+  "WorkspaceRootPath": "X:\\New folder\\SPT-Mod-Dev\\Hide Beta Rework\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C033696-DCFB-40F7-B6B0-5641980681BD}|YourModName.csproj|x:\\new folder\\3.9 dev2\\development\\hide beta rework\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C033696-DCFB-40F7-B6B0-5641980681BD}|YourModName.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C033696-DCFB-40F7-B6B0-5641980681BD}|HideBetaRework.csproj|X:\\New folder\\SPT-Mod-Dev\\Hide Beta Rework\\hidebetapatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C033696-DCFB-40F7-B6B0-5641980681BD}|HideBetaRework.csproj|solutionrelative:hidebetapatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C033696-DCFB-40F7-B6B0-5641980681BD}|HideBetaRework.csproj|x:\\new folder\\3.9 dev2\\development\\hide beta rework\\hidebetapatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C033696-DCFB-40F7-B6B0-5641980681BD}|HideBetaRework.csproj|solutionrelative:hidebetapatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C033696-DCFB-40F7-B6B0-5641980681BD}|HideBetaRework.csproj|x:\\new folder\\spt-mod-dev\\hide beta rework\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C033696-DCFB-40F7-B6B0-5641980681BD}|HideBetaRework.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|HideBetaRework||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C033696-DCFB-40F7-B6B0-5641980681BD}|HideBetaRework.csproj|x:\\new folder\\3.9 dev2\\development\\hide beta rework\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{2C033696-DCFB-40F7-B6B0-5641980681BD}|HideBetaRework.csproj|x:\\new folder\\spt-mod-dev\\hide beta rework\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,9 +38,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "HideBetaRework",
-              "DocumentMoniker": "X:\\New folder\\3.9 Dev2\\Development\\Hide Beta Rework\\HideBetaRework.csproj",
+              "DocumentMoniker": "X:\\New folder\\SPT-Mod-Dev\\Hide Beta Rework\\HideBetaRework.csproj",
               "RelativeDocumentMoniker": "HideBetaRework.csproj",
-              "ToolTip": "X:\\New folder\\3.9 Dev2\\Development\\Hide Beta Rework\\HideBetaRework.csproj",
+              "ToolTip": "X:\\New folder\\SPT-Mod-Dev\\Hide Beta Rework\\HideBetaRework.csproj",
               "RelativeToolTip": "HideBetaRework.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-07-26T01:15:07.739Z",
@@ -48,11 +48,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Plugin.cs",
-              "DocumentMoniker": "X:\\New folder\\3.9 Dev2\\Development\\Hide Beta Rework\\Plugin.cs",
+              "DocumentMoniker": "X:\\New folder\\SPT-Mod-Dev\\Hide Beta Rework\\Plugin.cs",
               "RelativeDocumentMoniker": "Plugin.cs",
-              "ToolTip": "X:\\New folder\\3.9 Dev2\\Development\\Hide Beta Rework\\Plugin.cs",
+              "ToolTip": "X:\\New folder\\SPT-Mod-Dev\\Hide Beta Rework\\Plugin.cs",
               "RelativeToolTip": "Plugin.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAWwB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -61,13 +61,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HideBetaPatch.cs",
-              "DocumentMoniker": "X:\\New folder\\3.9 Dev2\\Development\\Hide Beta Rework\\HideBetaPatch.cs",
+              "DocumentMoniker": "X:\\New folder\\SPT-Mod-Dev\\Hide Beta Rework\\HideBetaPatch.cs",
               "RelativeDocumentMoniker": "HideBetaPatch.cs",
-              "ToolTip": "X:\\New folder\\3.9 Dev2\\Development\\Hide Beta Rework\\HideBetaPatch.cs",
+              "ToolTip": "X:\\New folder\\SPT-Mod-Dev\\Hide Beta Rework\\HideBetaPatch.cs",
               "RelativeToolTip": "HideBetaPatch.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T01:16:09.372Z",
               "EditorCaption": ""

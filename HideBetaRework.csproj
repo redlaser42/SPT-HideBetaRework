@@ -34,23 +34,53 @@
     <RunPostBuildEvent>Always</RunPostBuildEvent>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony20">
+      <HintPath>..\..\MPT 3.9\BepInEx\core\0Harmony20.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Harmony">
+      <HintPath>..\..\MPT 3.9\BepInEx\core\BepInEx.Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Preloader">
+      <HintPath>..\..\MPT 3.9\BepInEx\core\BepInEx.Preloader.dll</HintPath>
+    </Reference>
+    <Reference Include="HarmonyXInterop">
+      <HintPath>..\..\MPT 3.9\BepInEx\core\HarmonyXInterop.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>..\..\MPT 3.9\BepInEx\core\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb">
+      <HintPath>..\..\MPT 3.9\BepInEx\core\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>..\..\MPT 3.9\BepInEx\core\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks">
+      <HintPath>..\..\MPT 3.9\BepInEx\core\Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>..\..\MPT 3.9\BepInEx\core\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>..\..\MPT 3.9\BepInEx\core\MonoMod.Utils.dll</HintPath>
+    </Reference>
     <Reference Include="spt-common">
-      <HintPath>..\..\BepInEx\plugins\spt\spt-common.dll</HintPath>
+      <HintPath>..\..\MPT 3.9\BepInEx\plugins\spt\spt-common.dll</HintPath>
     </Reference>
     <Reference Include="spt-core">
-      <HintPath>..\..\BepInEx\plugins\spt\spt-core.dll</HintPath>
+      <HintPath>..\..\MPT 3.9\BepInEx\plugins\spt\spt-core.dll</HintPath>
     </Reference>
     <Reference Include="spt-custom">
-      <HintPath>..\..\BepInEx\plugins\spt\spt-custom.dll</HintPath>
+      <HintPath>..\..\MPT 3.9\BepInEx\plugins\spt\spt-custom.dll</HintPath>
     </Reference>
     <Reference Include="spt-debugging">
-      <HintPath>..\..\BepInEx\plugins\spt\spt-debugging.dll</HintPath>
+      <HintPath>..\..\MPT 3.9\BepInEx\plugins\spt\spt-debugging.dll</HintPath>
     </Reference>
     <Reference Include="spt-reflection">
-      <HintPath>..\..\BepInEx\plugins\spt\spt-reflection.dll</HintPath>
+      <HintPath>..\..\MPT 3.9\BepInEx\plugins\spt\spt-reflection.dll</HintPath>
     </Reference>
     <Reference Include="spt-singleplayer">
-      <HintPath>..\..\BepInEx\plugins\spt\spt-singleplayer.dll</HintPath>
+      <HintPath>..\..\MPT 3.9\BepInEx\plugins\spt\spt-singleplayer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -75,13 +105,13 @@
       <HintPath>..\..\EscapeFromTarkov_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="0Harmony">
-      <HintPath>..\..\BepInEx\core\0Harmony.dll</HintPath>
+      <HintPath>..\..\MPT 3.9\BepInEx\core\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx">
-      <HintPath>..\..\BepInEx\core\BepInEx.dll</HintPath>
+      <HintPath>..\..\MPT 3.9\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="Comfort">
       <HintPath>..\..\EscapeFromTarkov_Data\Managed\Comfort.dll</HintPath>
