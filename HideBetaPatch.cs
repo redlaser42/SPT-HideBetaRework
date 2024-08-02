@@ -22,7 +22,7 @@ namespace HideBetaRework.Patches
         {
             //methods are patched by targeting both their class name and the name of the method itself.
             //the example in this patch is the Jump() method in the Player class
-            return AccessTools.Method(typeof(MenuScreen), nameof(MenuScreen));
+            return AccessTools.Method(typeof(MenuScreen), nameof(MenuScreen.method_3));
         }
 
 
