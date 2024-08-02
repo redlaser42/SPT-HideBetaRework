@@ -1,7 +1,6 @@
 ﻿using HarmonyLib;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,6 +17,20 @@ namespace HideBetaRework.Patches
 {
     internal class HideBetaReworkPatch : ModulePatch //we must inherit ModulePatch for our patch to work.
     {
+
+        private void HideVersionNumber()
+        {
+
+
+        }
+
+        private void HideBetaWarning()
+        { 
+
+        }
+
+
+
         protected override MethodBase GetTargetMethod()
         {
             //methods are patched by targeting both their class name and the name of the method itself.
@@ -39,6 +52,8 @@ namespace HideBetaRework.Patches
         static void Postfix(MenuScreen __instance, GameObject ____alphaWarningGameObject)
         {
             ____alphaWarningGameObject.SetActive(false);
+            ____alphaWarningGameObject.gameObject.SetActive(false);
+            Logger.LogInfo($"Attempted to Disable");
             //code here will run AFTER the original code is executed.
         }
 
