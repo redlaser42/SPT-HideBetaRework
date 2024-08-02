@@ -24,7 +24,9 @@ namespace HideBetaRework
             LogSource.LogInfo("plugin loaded!");
 
             //uncomment the line below and replace "PatchClassName" with the class name you gave your patch. Patches must be enabled like this to work.
-            new HideBetaReworkPatch().Enable();            
+            new HideBetaReworkPatch().Enable();
+            new HideVersionPatch().Enable();
+
         }
     }
 }
