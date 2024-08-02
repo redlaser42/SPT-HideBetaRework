@@ -52,7 +52,6 @@ namespace HideBetaRework.Patches
         static void Postfix(MenuScreen __instance, GameObject ____alphaWarningGameObject)
         {
             ____alphaWarningGameObject.SetActive(false);
-            ____alphaWarningGameObject.gameObject.SetActive(false);
             Logger.LogInfo($"Attempted to Disable");
             //code here will run AFTER the original code is executed.
         }
