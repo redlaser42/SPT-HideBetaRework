@@ -89,13 +89,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HideGameModePatch.cs" />
+    <Compile Include="HideTopGlowPatch.cs" />
     <Compile Include="HideBetaPatch.cs" />
+    <Compile Include="HideVersionPatch.cs" />
     <Compile Include="Plugin.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>copy "$(TargetPath)" "G:\Games\SPT_Dev Install\BepInEx\plugins\$(TargetFileName)"</PostBuildEvent>
   </PropertyGroup>
   <!--BEGINNING OF PASTED REFERENCES-->
   <ItemGroup>

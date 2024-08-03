@@ -18,21 +18,15 @@ namespace HideBetaRework.Patches
 {
     internal class HideVersionPatch : ModulePatch //we must inherit ModulePatch for our patch to work.
     {
-
         protected override MethodBase GetTargetMethod()
         {
-            //methods are patched by targeting both their class name and the name of the method itself.
-            //the example in this patch is the Jump() method in the Player class
-            return AccessTools.Method(typeof(PreloaderUI), nameof(PreloaderUI.Awake));
+            return AccessTools.Method(typeof(PreloaderUI), nameof(PreloaderUI.method_6));
         }
-
 
         [PatchPostfix]
-        static void Postfix(PreloaderUI __instance, GameObject AlphaLable)
+        static void Postfix(PreloaderUI __instance, LocalizedText ____alphaVersionLabel)
         {
-            AlphaLable.SetActive(false);
+            ____alphaVersionLabel.gameObject.SetActive(false);
         }
-
-        //don't forget to add 'new FiniteJumpPatch().Enable();' to the Awake() method of your Plugin.cs script to enable this patch.
     }
 }

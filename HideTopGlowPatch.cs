@@ -10,20 +10,21 @@ using EFT.UI;
 using UnityEngine;
 using SPT.Core.Patches;
 using SPT.Reflection.Patching;
+using UnityEngine.UI;
 
 namespace HideBetaRework.Patches
 {
-    internal class HideBetaReworkPatch : ModulePatch
+    internal class HideTopGlowPatch : ModulePatch
     {
         protected override MethodBase GetTargetMethod()
         {
-            return AccessTools.Method(typeof(MenuScreen), nameof(MenuScreen.method_3));
+            return AccessTools.Method(typeof(EnvironmentUI), nameof(EnvironmentUI.method_0));
         }
 
         [PatchPostfix]
-        static void Postfix(MenuScreen __instance, GameObject ____alphaWarningGameObject)
+        static void Postfix(EnvironmentUI __instance, Image ____imageToFadeIn)
         {
-            ____alphaWarningGameObject.SetActive(false);
+            ____imageToFadeIn.color = new Color(0f, 0f, 0f, 1f);
         }
     }
 }

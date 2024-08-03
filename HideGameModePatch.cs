@@ -13,17 +13,18 @@ using SPT.Reflection.Patching;
 
 namespace HideBetaRework.Patches
 {
-    internal class HideBetaReworkPatch : ModulePatch
+    internal class HideGameModePatch : ModulePatch
     {
+
         protected override MethodBase GetTargetMethod()
         {
             return AccessTools.Method(typeof(MenuScreen), nameof(MenuScreen.method_3));
         }
 
         [PatchPostfix]
-        static void Postfix(MenuScreen __instance, GameObject ____alphaWarningGameObject)
+        static void Postfix(MenuScreen __instance, ChangeGameModeButton ____toggleGameModeButton)
         {
-            ____alphaWarningGameObject.SetActive(false);
+            ____toggleGameModeButton.gameObject.SetActive(false);
         }
     }
 }
