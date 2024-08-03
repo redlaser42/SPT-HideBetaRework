@@ -10,7 +10,7 @@ using System.Reflection;
 
 namespace HideBetaRework
 {
-    [BepInPlugin("redlaser42.MainMenuCleaner", "MainMenuCleaner", "0.0.1")]  
+    [BepInPlugin("redlaser42.MainMenuCleaner", "MainMenuCleaner", "1.0.0")]  
     public class Plugin : BaseUnityPlugin
     {
         public static ManualLogSource LogSource;
